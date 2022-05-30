@@ -51,8 +51,8 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
@@ -73,7 +73,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
     background-size: cover;
-    background-position: left center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -90,6 +90,11 @@ section#img1 {
 }
 
 section#img2 {
+    background-image: url(../imagens/background003.jpg); 
+    
+}
+
+section#img3 {
     background-image: url(../imagens/background002.jpg); 
     
 }
