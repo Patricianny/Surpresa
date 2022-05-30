@@ -4,10 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
 :root {
     --fonte1: Verdana, Gevena, Tahoma, sans-serif;
     --fonte2: 'Sriracha', cursive;
-    --fonte3: 'Passion One', cursive;
+    --fonte3: 'Tiro Devanagari Marathi', serif;
 }
 
 * {
@@ -28,14 +30,14 @@ header {
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 30px;
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 7.5vw;
+    font-size: 7.0vw;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 a {
@@ -71,7 +73,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
     background-size: cover;
-    background-position: right center;
+    background-position: left center;
     background-attachment: fixed;
 }
 
