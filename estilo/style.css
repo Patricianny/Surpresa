@@ -92,12 +92,12 @@ section#img3 {
 @media (max-width: 600px) {
 
     section {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        line-height: 2em;
-        padding-left: 30px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        line-height: 2.5em;
+        padding-left: 20px;
         font-family: var(--fonte2);
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
 }
