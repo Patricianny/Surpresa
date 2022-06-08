@@ -50,12 +50,20 @@ section {
 }
 
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 section.normal {
     background-color: white;
     color: black;
+}
+section#normal {
+    background-color: white;
+    color: black; 
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 section.imagem {
@@ -75,18 +83,22 @@ section.imagem > p {
 }
 
 section#img1 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/background002.jpg);
     
 }
 
 section#img2 {
-    background-image: url(../imagens/background003.jpg); 
+    background-image: url(../imagens/background001.jpg); 
     
 }
 
 section#img3 {
-    background-image: url(../imagens/background002.jpg); 
+    background-image: url(../imagens/background003.jpg); 
     
+}
+
+section#img4 {
+    background-image: url(../imagens/background004.jpg);
 }
 
 @media (max-width: 600px) {
@@ -94,10 +106,13 @@ section#img3 {
     section {
         padding-top: 5vh;
         padding-bottom: 5vh;
-        line-height: 2.5em;
+        line-height: 2em;
         padding-left: 20px;
         font-family: var(--fonte2);
         font-size: 4vw;
     }
 
+    section#normal {
+        line-height: 1.5em;
+    }
 }
