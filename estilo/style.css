@@ -62,8 +62,8 @@ section#normal {
     background-color: white;
     color: black; 
     text-align: justify;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 section.imagem {
@@ -71,7 +71,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -101,7 +101,7 @@ section#img4 {
     background-image: url(../imagens/background004.jpg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
 
     section {
         padding-top: 5vh;
